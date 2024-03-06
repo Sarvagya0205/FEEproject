@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(252 , 15% , 65%);;
+}
+
+header {
+    background-color: hsl(252 , 75% , 60%);
+    color: hsl(252 , 30% , 100%);
+    text-align: center;
+    padding: 20px;
+}
+header:hover {
+    background-color: black;
+    color: goldenrod;
+    transition: all 2s ease-in-out 0.1s;
+     font-weight:900;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.metric {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+
+.metric h2 {
+    font-size: 24px;
+}
+
+.metric p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #3498db;
+}
+.facebook{
+    color: hsl(252 , 75% , 60%);
+}
